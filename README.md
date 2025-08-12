@@ -37,7 +37,7 @@ RISC-V is byte-addresses, meaning every byte has a unique address. Since our ins
 
 <p align="center">
   <img width="183" height="256" alt="image" src="https://github.com/user-attachments/assets/feddbfe3-faf5-4e9f-8744-c50413d8c592" /><br>
-  <em>Figure 1b: The Instruction Fetch Pipeline Stage</em>
+  <em>Figure 1a: The Instruction Fetch Pipeline Stage</em>
 </p>
 
 
@@ -56,7 +56,7 @@ This pipeline stage uses a control unit in order to send all of the information 
 
 <p align="center">
   <img width="1075" height="726" alt="image" src="https://github.com/user-attachments/assets/4fc29b93-f873-457c-aa7b-5e82910b80f2" /><br>
-  <em>Figure 1c: The Instruction Decode Pipeline Stage</em>
+  <em>Figure 1b: The Instruction Decode Pipeline Stage</em>
 </p>
 
 
@@ -69,7 +69,7 @@ This pipeline stage is responsible for performing arithmetic and logical operati
 
 <p align="center">
   <img width="767" height="826" alt="image" src="https://github.com/user-attachments/assets/d90eaf6a-f65e-4c6a-ba7e-b88be32a7e1d" /><br>
-  <em>Figure 1d: The Execute Pipeline Stage</em>
+  <em>Figure 1c: The Execute Pipeline Stage</em>
 </p>
 
 ## The "Memory" Cycle
@@ -80,7 +80,7 @@ This pipeline stage is responsible for storing long term information in the Data
 
 <p align="center">
   <img width="171" height="608" alt="image" src="https://github.com/user-attachments/assets/f2d0374f-553a-42b0-b2a3-118fdce370dd" /><br>
-  <em>Figure 1e: The Memory Pipeline Stage</em>
+  <em>Figure 1d: The Memory Pipeline Stage</em>
 </p>
 
 
@@ -92,7 +92,7 @@ The writeback pipeline stage is primarily responsible for forwarding relevant in
 
 <p align="center">
   <img width="152" height="656" alt="image" src="https://github.com/user-attachments/assets/9adf9def-20ac-4ee5-be5c-cc9060fe4362" /><br>
-  <em>Figure 1f: The Writeback Pipeline Stage</em>
+  <em>Figure 1e: The Writeback Pipeline Stage</em>
 </p>
 
 ## The Hazard Unit
